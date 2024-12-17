@@ -1,0 +1,5 @@
+// 문제22. 조건에 맞는 회원수 구하기
+
+SELECT COUNT(USER_ID) as USERS
+FROM USER_INFO
+WHERE YEAR(JOINED) = '2021' AND age >= 20 AND age <= 29;
