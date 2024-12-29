@@ -1,4 +1,4 @@
-// 문제31. 오랜 기간 보호한 동물(1)
+//문제31. 오랜 기간 보호한 동물(1)
 
 SELECT NAME, DATETIME
 FROM ANIMAL_INS
